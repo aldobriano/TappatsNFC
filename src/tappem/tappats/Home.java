@@ -119,8 +119,8 @@ private Context context;
 					}
 				}else
 				{
-					String text = "Your current GPS location couldn't be found.  Please verify your GPS is turned on and try again. \n" +
-					"If you know the desired stop name, use the search button to search for the stop.";
+					String text = "We couldn't find you!  Please check that your GPS is turned on and try again. \n \n" +
+					"If you know which stop you're looking for try using the search button to search for the stop.";
 
 
 
@@ -141,7 +141,7 @@ private Context context;
 		else{
 			Log.d("TAPPATS", "currentLocation is null");
 			
-			showStatusTextInList("...acquiring your gps location...");
+			showStatusTextInList("Getting your GPS location...");
 		}
 
 		
@@ -225,7 +225,7 @@ private Context context;
 				case TappatsErrorCodes.ERROR_GPS:
 					displayText(text);
 					setProgressBarVisible(false);
-					showStatusTextInList("...Error while getting GPS...");
+					showStatusTextInList("Something went wrong while finding your location...");
 					break;
 					
 				case TappatsErrorCodes.ERROR_INTERNET:
@@ -234,7 +234,7 @@ private Context context;
 					setProgressBarVisible(false);
 					break;
 				case TappatsErrorCodes.CLEAR_LIST:
-					showStatusTextInList("...Error with internet connection...");
+					showStatusTextInList("Something went wrong with your internet connection...");
 					setProgressBarVisible(false);
 					break;
 				}
@@ -364,7 +364,7 @@ private Context context;
 
 			if(!BusAdapter.VERSION.equals(version))
 			{
-				CharSequence text = "A new version of TapPATS has been released. Please update your app!";
+				CharSequence text = "A new version of Tappats has been released. Please update your app!";
 				int duration = Toast.LENGTH_LONG;
 
 				Toast toast = Toast.makeText(this, text, duration);

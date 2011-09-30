@@ -5,6 +5,12 @@
     <application android:icon="@drawable/icon" 
     android:label="@string/app_name"
     >
+    
+    <supports-screens
+    android:normalScreens="true"
+    android:largeScreens="true"
+    />
+    
 	<activity android:name=".Splash" android:label="@string/app_name"
 		android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
 		android:screenOrientation="portrait" android:launchMode="singleTask"

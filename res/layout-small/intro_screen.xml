@@ -17,7 +17,7 @@ android:background="@drawable/intro_speech"
 android:layout_centerHorizontal="true"
 android:layout_marginLeft="36dp"
 android:layout_marginRight="36dp"
-android:layout_marginTop="36dp"
+android:layout_marginTop="60dp"
 >
 
 			
@@ -29,7 +29,7 @@ android:layout_marginTop="36dp"
 			android:paddingLeft="12dp"
 			android:paddingRight="12dp"
 			android:text="To Use NFC:"
-			android:textSize="15dp"
+			android:textSize="18dp"
 			android:textStyle="bold"
 			android:textColor="#333333"
 			>
@@ -45,24 +45,14 @@ android:layout_marginTop="36dp"
 			android:paddingBottom="20dp"
 			android:layout_below="@+id/intro_title"
 			android:text="Place your phone against the Tappats badge at the bus stop to see when the next buses are arriving."
-			android:textSize="15dp"
+			android:textSize="18dp"
 			android:lineSpacingExtra="2dp"
 			android:textStyle="normal"
 			android:textColor="#333333"
 			>
-			</TextView>
+			</TextView>	
 
 </RelativeLayout>
-  
-<ImageView
-android:layout_width="120dp"
-android:layout_height="120dp"
-android:layout_below="@+id/intro"
-android:layout_marginTop="12dp"
-android:layout_centerHorizontal="true"
-android:background="@drawable/badge"
->
-</ImageView>
 
 
 <ImageView

@@ -10,14 +10,14 @@
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@+id/logobar"
 		android:layout_width="fill_parent"
-		android:layout_height="60px"
+		android:layout_height="40dp"
 		android:layout_alignParentTop="true"
 		android:background="@drawable/logo_background"
 		>
 		
 		<ImageView
-		android:layout_width="136px"
-		android:layout_height="38px"
+		android:layout_width="90dp"
+		android:layout_height="25dp"
 		android:layout_centerInParent="true"
 		android:background="@drawable/tappats_logo"
 		>
@@ -25,7 +25,7 @@
 		
 		<ImageView
 		android:layout_width="fill_parent"
-		android:layout_height="1px"
+		android:layout_height="1dp"
 		android:layout_alignParentBottom="true"
 		android:background="#000000"
 		>
@@ -37,27 +37,27 @@
 	  xmlns:android="http://schemas.android.com/apk/res/android"
 	  android:id="@+id/current_header"
 	  android:layout_width="match_parent"
-	  android:layout_height="198px"
+	  android:layout_height="88dp"
 	  android:layout_below="@+id/logobar"
 	  android:background="@drawable/greybg_light"
 	  >
 	  
 	  <RelativeLayout
 		android:id="@+id/stop_buttonholder"
-		android:layout_width="444px"
-		android:layout_height="65px"
-		android:layout_marginLeft="18px"
-		android:layout_marginTop="5px"
+		android:layout_width="296dp"
+		android:layout_height="43dp"
+		android:layout_marginLeft="12dp"
+		android:layout_marginTop="3dp"
 		>
 		
 		<TextView
 		   	android:id="@+id/stopname"
 		   	android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:maxWidth="340px"
+			android:maxWidth="207dp"
 			android:layout_centerVertical="true"
 			android:text="Palo Alto Transit Center"
-			android:textSize="24px"
+			android:textSize="16dp"
 			android:textStyle="bold"
 			android:textColor="#000000"
 		>
@@ -65,16 +65,16 @@
 	
 	    	<RelativeLayout
 	    		    android:id="@+id/favoriteholder"
-	    		    android:layout_width="30px"
+	    		    android:layout_width="20dp"
 					android:layout_height="fill_parent"
-					android:layout_marginLeft="15px"
+					android:layout_marginLeft="10dp"
 					android:layout_toRightOf="@+id/stopname"
 					>
 					
 			    	<Button
 			    	    android:id="@+id/favorites"
-			    		android:layout_width="30px"
-						android:layout_height="30px"
+			    		android:layout_width="20dp"
+						android:layout_height="20dp"
 						android:background="@drawable/star_notfavorite"
 						android:layout_centerVertical="true"
 						android:layout_alignParentRight="true"
@@ -87,16 +87,16 @@
 	
 	    	<RelativeLayout
 	    		    android:id="@+id/refreshholder"
-	    		    android:layout_width="30px"
+	    		    android:layout_width="20dp"
 					android:layout_height="fill_parent"
-					android:layout_marginLeft="15px"
+					android:layout_marginLeft="10dp"
 					android:layout_alignParentRight="true"
 					>
 					
 			    	<Button
 			    	    android:id="@+id/refresh"
-			    		android:layout_width="30px"
-						android:layout_height="30px"
+			    		android:layout_width="20dp"
+						android:layout_height="20dp"
 						android:background="@drawable/refresh_background"
 						android:layout_centerVertical="true"
 						android:layout_alignParentRight="true"
@@ -110,11 +110,11 @@
 	  
 	  	 <WebView
 	    	android:id="@+id/map"
-			android:layout_width="444px"
-			android:layout_height="110px"
+			android:layout_width="296dp"
+			android:layout_height="73dp"
 			android:layout_below="@+id/stop_buttonholder"
-			android:layout_marginLeft="18px"
-			android:layout_marginTop="3px"
+			android:layout_marginLeft="12dp"
+			android:layout_marginTop="2dp"
 			android:background="@drawable/rounded_corners"
 			/>
 		
@@ -126,7 +126,7 @@
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@+id/current_title_bar"
 		android:layout_width="match_parent"
-		android:layout_height="44px"
+		android:layout_height="29dp"
 		android:layout_below="@+id/current_header"
 		android:background="@drawable/greybg_dark"
 		>
@@ -134,11 +134,11 @@
 		<TextView
 		    android:id="@+id/busroute" 
 		    android:text="Bus route"
-			android:layout_width="120px" 
+			android:layout_width="80dp" 
 			android:layout_height="fill_parent"
-			android:layout_marginLeft="18px"
+			android:layout_marginLeft="12dp"
 			android:gravity="center_vertical"
-			android:textSize="24px"
+			android:textSize="16dp"
 			android:textStyle="bold"
 			android:textColor="#ffffff"    
 		    />
@@ -149,9 +149,9 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="fill_parent"
 			android:layout_toRightOf="@+id/busroute"
-			android:layout_marginLeft="18px"
+			android:layout_marginLeft="12dp"
 			android:gravity="center_vertical"
-			android:textSize="24px"
+			android:textSize="16dp"
 			android:textStyle="bold"
 			android:textColor="#ffffff"    
 		    />
@@ -162,9 +162,9 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="fill_parent"
 			android:layout_alignParentRight="true"
-			android:layout_marginRight="18px"
+			android:layout_marginRight="12dp"
 			android:gravity="center_vertical"
-			android:textSize="24px"
+			android:textSize="16dp"
 			android:textStyle="bold"
 			android:textColor="#ffffff"    
 		    />
@@ -175,20 +175,20 @@
 		android:id="@+id/buses" 
 		android:layout_width="fill_parent" 
 		android:layout_height="fill_parent"
-		android:layout_marginBottom="80px"
+		android:layout_marginBottom="53dp"
 		android:layout_below="@+id/current_title_bar"
 		>
 	</ListView>
 
 	<ProgressBar android:id="@+id/pb"
-        android:layout_width="40px" 
-        android:layout_height="40px"
+        android:layout_width="26dp" 
+        android:layout_height="26dp"
         android:indeterminate="true" 
         android:indeterminateOnly="true"
         android:isScrollContainer="true" 
         android:layout_alignParentRight="true"
-        android:layout_marginTop="10px"
-		android:layout_marginRight="18px"
+        android:layout_marginTop="6dp"
+		android:layout_marginRight="12dp"
         android:soundEffectsEnabled="false"
         />
 	
@@ -197,7 +197,7 @@
 	  android:id="@+id/navbarholder"
 	  android:orientation="vertical"
 	  android:layout_width="fill_parent"
-	  android:layout_height="80px"
+	  android:layout_height="53dp"
 	  android:layout_alignParentBottom="true"
 	  android:background="@drawable/greybg_dark"
 	  >
@@ -206,18 +206,18 @@
 			android:id="@+id/navbar_holder"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_marginLeft="18px"
-			android:layout_marginTop="4px"
+			android:layout_marginLeft="12dp"
+			android:layout_marginTop="3dp"
 			>
 			
 			    <Button 
 				    android:id="@+id/navbar_home" 
 				    android:text="Home"
-				    android:paddingTop="42px"
-				    android:layout_width="111px" 
-				    android:layout_height="72px"
+				    android:paddingTop="28dp"
+				    android:layout_width="74dp" 
+				    android:layout_height="48dp"
 				    android:background="@drawable/navbar_home_background"
-				    android:textSize="14px"
+				    android:textSize="9dp"
 					android:textStyle="bold"
 					android:textColor="#ffffff" 
 			    	>
@@ -226,11 +226,11 @@
 			    <Button 
 				    android:id="@+id/navbar_current" 
 				    android:text="Current"
-				    android:paddingTop="42px"
-				    android:layout_width="111px" 
-				    android:layout_height="72px"
+				    android:paddingTop="28dp"
+				    android:layout_width="74dp" 
+				    android:layout_height="48dp"
 				    android:background="@drawable/navbar_current_background"
-				    android:textSize="14px"
+				    android:textSize="9dp"
 					android:textStyle="bold"
 					android:textColor="#ffffff" 
 			    	>
@@ -239,11 +239,11 @@
 			    <Button 
 				    android:id="@+id/navbar_favorites" 
 				    android:text="Favorites"
-				    android:paddingTop="42px"
-				    android:layout_width="111px" 
-				    android:layout_height="72px"
+				    android:paddingTop="28dp"
+				    android:layout_width="74dp" 
+				    android:layout_height="48dp"
 				    android:background="@drawable/navbar_favorite_background"
-				    android:textSize="14px"
+				    android:textSize="9dp"
 					android:textStyle="bold"
 					android:textColor="#ffffff" 
 			    	>
@@ -252,11 +252,11 @@
 			        <Button 
 				    android:id="@+id/navbar_settings" 
 				    android:text="Settings"
-				    android:paddingTop="42px"
-				    android:layout_width="111px" 
-				    android:layout_height="72px"
+				    android:paddingTop="28dp"
+				    android:layout_width="74dp" 
+				    android:layout_height="48dp"
 				    android:background="@drawable/navbar_settings_background"
-				    android:textSize="14px"
+				    android:textSize="9dp"
 					android:textStyle="bold"
 					android:textColor="#ffffff"
 			    	>

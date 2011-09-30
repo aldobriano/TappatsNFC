@@ -10,14 +10,14 @@
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@+id/logobar"
 		android:layout_width="fill_parent"
-		android:layout_height="60px"
+		android:layout_height="40dp"
 		android:layout_alignParentTop="true"
 		android:background="@drawable/logo_background"
 		>
 		
 		<ImageView
-		android:layout_width="136px"
-		android:layout_height="38px"
+		android:layout_width="90dp"
+		android:layout_height="25dp"
 		android:layout_centerInParent="true"
 		android:background="@drawable/tappats_logo"
 		>
@@ -26,7 +26,7 @@
 		<ImageView
 		android:id="@+id/logobar_blackline"
 		android:layout_width="fill_parent"
-		android:layout_height="1px"
+		android:layout_height="1dp"
 		android:layout_alignParentBottom="true"
 		android:background="#000000"
 		>
@@ -38,7 +38,7 @@
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@+id/fav_header"
 		android:layout_width="fill_parent"
-		android:layout_height="132px"
+		android:layout_height="88dp"
 		android:layout_below="@+id/logobar"
 		android:background="@drawable/greybg_light"
 		>
@@ -46,11 +46,11 @@
 		<LinearLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@+id/fav_message"
-		android:layout_width="152px"
-		android:layout_height="124px"
+		android:layout_width="101dp"
+		android:layout_height="83dp"
 		android:background="@drawable/star"
-		android:layout_marginLeft="14px"
-		android:layout_marginBottom="1px"
+		android:layout_marginLeft="9dp"
+		android:layout_marginBottom="1dp"
 		android:layout_alignParentBottom="true"
 		>
 		</LinearLayout>
@@ -58,12 +58,13 @@
 		<TextView
 		    android:id="@+id/fav_text" 
 		    android:text="This is a list of your favorite places. Save stops here so that you can access them quickly."
-			android:layout_width="275px" 
+			android:layout_width="fill_parent" 
 			android:layout_height="fill_parent"
-			android:layout_marginLeft="18px"
+			android:layout_marginLeft="12dp"
+			android:layout_marginRight="12dp"
 			android:layout_toRightOf="@+id/fav_message"
 			android:gravity="center_vertical"
-			android:textSize="22px"
+			android:textSize="15dp"
 			android:textStyle="normal"
 			android:textColor="#000000"
 		    />
@@ -74,7 +75,7 @@
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@+id/favorite_title_bar"
 		android:layout_width="match_parent"
-		android:layout_height="44px"
+		android:layout_height="29dp"
 		android:layout_below="@+id/fav_header"
 		android:background="@drawable/greybg_dark"
 		>
@@ -84,9 +85,9 @@
 		    android:text="Favorites"
 			android:layout_width="wrap_content" 
 			android:layout_height="fill_parent"
-			android:layout_marginLeft="18px"
+			android:layout_marginLeft="12dp"
 			android:gravity="center_vertical"
-			android:textSize="24px"
+			android:textSize="16dp"
 			android:textStyle="bold"
 			android:textColor="#ffffff"    
 		    />
@@ -99,7 +100,7 @@
 		android:cacheColorHint="#F0F0F0"
 		android:layout_width="fill_parent" 
 		android:layout_height="fill_parent"
-		android:layout_marginBottom="80px"
+		android:layout_marginBottom="53dp"
 		android:layout_below="@+id/favorite_title_bar"
 		>
 	</ListView>
@@ -109,7 +110,7 @@
 	  android:id="@+id/navbarholder"
 	  android:orientation="vertical"
 	  android:layout_width="fill_parent"
-	  android:layout_height="80px"
+	  android:layout_height="53dp"
 	  android:layout_alignParentBottom="true"
 	  android:background="@drawable/greybg_dark"
 	  >
@@ -118,18 +119,18 @@
 			android:id="@+id/navbar_holder"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_marginLeft="18px"
-			android:layout_marginTop="4px"
+			android:layout_marginLeft="12dp"
+			android:layout_marginTop="3dp"
 			>
 			
 			    <Button 
 				    android:id="@+id/navbar_home" 
 				    android:text="Home"
-				    android:paddingTop="42px"
-				    android:layout_width="111px" 
-				    android:layout_height="72px"
+				    android:paddingTop="28dp"
+				    android:layout_width="74dp" 
+				    android:layout_height="48dp"
 				    android:background="@drawable/navbar_home_background"
-				    android:textSize="14px"
+				    android:textSize="9dp"
 					android:textStyle="bold"
 					android:textColor="#ffffff" 
 			    	>
@@ -138,11 +139,11 @@
 			    <Button 
 				    android:id="@+id/navbar_current" 
 				    android:text="Current"
-				    android:paddingTop="42px"
-				    android:layout_width="111px" 
-				    android:layout_height="72px"
+				    android:paddingTop="28dp"
+				    android:layout_width="74dp" 
+				    android:layout_height="48dp"
 				    android:background="@drawable/navbar_current_background"
-				    android:textSize="14px"
+				    android:textSize="9dp"
 					android:textStyle="bold"
 					android:textColor="#ffffff" 
 			    	>
@@ -151,11 +152,11 @@
 			    <Button 
 				    android:id="@+id/navbar_favorites" 
 				    android:text="Favorites"
-				    android:paddingTop="42px"
-				    android:layout_width="111px" 
-				    android:layout_height="72px"
+				    android:paddingTop="28dp"
+				    android:layout_width="74dp" 
+				    android:layout_height="48dp"
 				    android:background="@drawable/navbar_favorite_background"
-				    android:textSize="14px"
+				    android:textSize="9dp"
 					android:textStyle="bold"
 					android:textColor="#ffffff" 
 			    	>
@@ -164,11 +165,11 @@
 			        <Button 
 				    android:id="@+id/navbar_settings" 
 				    android:text="Settings"
-				    android:paddingTop="42px"
-				    android:layout_width="111px" 
-				    android:layout_height="72px"
+				    android:paddingTop="28dp"
+				    android:layout_width="74dp" 
+				    android:layout_height="48dp"
 				    android:background="@drawable/navbar_settings_background"
-				    android:textSize="14px"
+				    android:textSize="9dp"
 					android:textStyle="bold"
 					android:textColor="#ffffff"
 			    	>

@@ -24,6 +24,7 @@
 		</ImageView>
 		
 		<ImageView
+		android:id="@+id/logobar_blackline"
 		android:layout_width="fill_parent"
 		android:layout_height="1dp"
 		android:layout_alignParentBottom="true"
@@ -31,37 +32,26 @@
 		>
 		</ImageView>
 		
-	</RelativeLayout>
-	
-	<RelativeLayout
+	</RelativeLayout>	
+    
+    	<RelativeLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
-		android:id="@+id/nfc_header"
+		android:id="@+id/fav_header"
 		android:layout_width="fill_parent"
 		android:layout_height="88dp"
 		android:layout_below="@+id/logobar"
 		android:background="@drawable/greybg_light"
 		>
-		
-		<LinearLayout
-		xmlns:android="http://schemas.android.com/apk/res/android"
-		android:id="@+id/nfc_message"
-		android:layout_width="93dp"
-		android:layout_height="83dp"
-		android:background="@drawable/nfctappats"
-		android:layout_marginLeft="12dp"
-		android:layout_marginBottom="1dp"
-		android:layout_alignParentBottom="true"
-		>
-		</LinearLayout>
+
 		
 		<TextView
-		    android:id="@+id/nfc_text" 
-		    android:text="Place your phone against the TapPATS badge at the bus stop to see when the next buses are arriving"
+		    android:id="@+id/fav_text" 
+		    android:text="This is a list of your favorite places. Save stops here so you can access them quickly."
 			android:layout_width="fill_parent" 
 			android:layout_height="fill_parent"
 			android:layout_marginLeft="12dp"
 			android:layout_marginRight="12dp"
-			android:layout_toRightOf="@+id/nfc_message"
+			android:layout_toRightOf="@+id/fav_message"
 			android:gravity="center_vertical"
 			android:textSize="15dp"
 			android:textStyle="normal"
@@ -72,16 +62,16 @@
     
 	<RelativeLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
-		android:id="@+id/home_title_bar"
+		android:id="@+id/favorite_title_bar"
 		android:layout_width="match_parent"
 		android:layout_height="29dp"
-		android:layout_below="@+id/nfc_header"
+		android:layout_below="@+id/fav_header"
 		android:background="@drawable/greybg_dark"
 		>
 	
 		<TextView
-		    android:id="@+id/busroute" 
-		    android:text="Nearby stops"
+		    android:id="@+id/favorites_title" 
+		    android:text="Favorites"
 			android:layout_width="wrap_content" 
 			android:layout_height="fill_parent"
 			android:layout_marginLeft="12dp"
@@ -94,27 +84,15 @@
 	</RelativeLayout>
     
 	<ListView 
-		android:id="@+id/bus_stop_list"
+		android:id="@+id/favorites_stop_listview"
 		android:drawSelectorOnTop="false"
 		android:cacheColorHint="#F0F0F0"
 		android:layout_width="fill_parent" 
 		android:layout_height="fill_parent"
 		android:layout_marginBottom="53dp"
-		android:layout_below="@+id/home_title_bar"
+		android:layout_below="@+id/favorite_title_bar"
 		>
 	</ListView>
-	
-	<ProgressBar android:id="@+id/pb"
-        android:layout_width="26dp" 
-        android:layout_height="26dp"
-        android:indeterminate="true" 
-        android:indeterminateOnly="true"
-        android:isScrollContainer="true" 
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="6dp"
-		android:layout_marginRight="12dp"
-        android:soundEffectsEnabled="false"
-        />
 	
 	<LinearLayout
 	  xmlns:android="http://schemas.android.com/apk/res/android"
@@ -184,7 +162,7 @@
 					android:textStyle="bold"
 					android:textColor="#ffffff"
 			    	>
-			    </Button>    
+			    </Button>   
 	
 		</LinearLayout>
 

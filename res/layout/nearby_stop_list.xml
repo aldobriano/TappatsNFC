@@ -2,7 +2,7 @@
 <LinearLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:layout_width="fill_parent"
-		android:layout_height="98px"
+		android:layout_height="65dp"
 		
 		>
 
@@ -11,7 +11,7 @@
    		xmlns:android="http://schemas.android.com/apk/res/android"
     	android:id="@+id/stoplist"
     	android:layout_width="fill_parent"
-		android:layout_height="98px"
+		android:layout_height="65dp"
 		
 		
     	>
@@ -23,13 +23,13 @@
 	    	android:id="@+id/stopname"
 	    	android:layout_width="wrap_content"
 	    	
-			android:layout_height="30px"
-			android:maxWidth="370px"
-			android:maxHeight="30px"
-			android:layout_marginTop="14px"
-			android:layout_marginLeft="18px"
+			android:layout_height="20dp"
+			android:maxWidth="247dp"
+			android:maxHeight="20dp"
+			android:layout_marginTop="9dp"
+			android:layout_marginLeft="12dp"
 			android:text="California Street @ San Antonio Shopping Center"
-			android:textSize="24px"
+			android:textSize="16dp"
 			android:textColor="#000000"
 	    	>
     	</TextView>
@@ -37,25 +37,25 @@
     	<ImageView
 	    	android:id="@+id/stopline1"
 	    	
-	    	android:layout_marginTop="10px"
-	    	android:layout_marginBottom="10px"
+	    	android:layout_marginTop="6dp"
+	    	android:layout_marginBottom="6dp"
 	    	android:layout_below="@+id/stopname"
-	    	android:layout_width="67px"
-			android:layout_height="24px"
-			android:layout_marginRight="7px"
-			android:layout_marginLeft="18px"
+	    	android:layout_width="45dp"
+			android:layout_height="16dp"
+			android:layout_marginRight="4dp"
+			android:layout_marginLeft="12dp"
 	    	>
     	</ImageView>
     	
     	<ImageView
 	    	android:id="@+id/stopline2"
 	    	
-	    	android:layout_marginTop="10px"
+	    	android:layout_marginTop="6dp"
 	    	android:layout_below="@+id/stopname"
 	    	android:layout_toRightOf="@+id/stopline1"
-	    	android:layout_width="67px"
-			android:layout_height="24px"
-			android:layout_marginRight="7px"
+	    	android:layout_width="45dp"
+			android:layout_height="16dp"
+			android:layout_marginRight="4dp"
 			
 	    	>
     	</ImageView>
@@ -63,12 +63,12 @@
     	<ImageView
 	    	android:id="@+id/stopline3"
 	    	
-	    	android:layout_marginTop="10px"
+	    	android:layout_marginTop="6dp"
 	    	android:layout_below="@+id/stopname"
 	    	android:layout_toRightOf="@+id/stopline2"
-	    	android:layout_width="67px"
-			android:layout_height="24px"
-			android:layout_marginRight="7px"
+	    	android:layout_width="45dp"
+			android:layout_height="16dp"
+			android:layout_marginRight="4dp"
 			
 	    	>
     	</ImageView>
@@ -76,12 +76,12 @@
     	<ImageView
 	    	android:id="@+id/stopline4"
 	    	
-	    	android:layout_marginTop="10px"
+	    	android:layout_marginTop="6dp"
 	    	android:layout_below="@+id/stopname"
 	    	android:layout_toRightOf="@+id/stopline3"
-	    	android:layout_width="67px"
-			android:layout_height="24px"
-			android:layout_marginRight="7px"
+	    	android:layout_width="45dp"
+			android:layout_height="16dp"
+			android:layout_marginRight="4dp"
 			
 	    	>
     	</ImageView>
@@ -89,12 +89,12 @@
     	<ImageView
 	    	android:id="@+id/stopline5"
 	    	
-	    	android:layout_marginTop="10px"
+	    	android:layout_marginTop="6dp"
 	    	android:layout_below="@+id/stopname"
 	    	android:layout_toRightOf="@+id/stopline4"
-	    	android:layout_width="67px"
-			android:layout_height="24px"
-			android:layout_marginRight="7px"
+	    	android:layout_width="45dp"
+			android:layout_height="16dp"
+			android:layout_marginRight="4dp"
 			
 	    	>
     	</ImageView>
@@ -102,7 +102,7 @@
    	    <ImageView 
 		android:id="@+id/listbottomline" 
 		android:layout_width="fill_parent"
-		android:layout_height="1px"
+		android:layout_height="1dp"
 		
 		android:background="#000000"
 		android:layout_below="@+id/stoplist"

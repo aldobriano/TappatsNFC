@@ -84,10 +84,6 @@ private Context context;
 		settingsBtn.setOnClickListener(this);
 		
 		showEmptyList();
-
-
-		
-
 	}
 
 	public void onStart()
@@ -97,9 +93,6 @@ private Context context;
 
 		serverData = new MargueriteTransportation(SystemTools.getUniqueId(this));
 		checkVersion();
-
-		
-
 
 		MyLocation myLocation = new MyLocation();
 		LocationResult locationResult = new LocationResult(){
@@ -122,12 +115,8 @@ private Context context;
 					String text = "We couldn't find you!  Please check that your GPS is turned on and try again. \n \n" +
 					"If you know which stop you're looking for try using the search button to search for the stop.";
 
-
-
 					downloadThread.updateUI(text, TappatsErrorCodes.ERROR_GPS, context);
 
-					
-					
 				}
 				
 			}
@@ -144,15 +133,6 @@ private Context context;
 			showStatusTextInList("Getting your GPS location...");
 		}
 
-		
-
-
-
-
-
-
-
-		
 	}
 	
 	
@@ -162,14 +142,10 @@ private Context context;
 		
 	}
 	
-	
-	
-	
+
 	protected void showEmptyList()
 	{
-
 		updateList(null);
-
 	}
 	
 	
@@ -455,8 +431,6 @@ private Context context;
 			//Toast.makeText(this, "You clicked", Toast.LENGTH_SHORT).show();
 			break;
 		}
-
-
 	}
 
 	public void onItemClick(AdapterView<?> arg0, View arg1, int listIndex,
@@ -479,15 +453,4 @@ private Context context;
 		}catch(Exception e)
 		{}
 	}
-
-	
-
-
-
-
-
-
-
-
-
 }

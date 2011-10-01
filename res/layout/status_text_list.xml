@@ -5,24 +5,17 @@
   android:layout_height="match_parent"
   android:background="#FFFFFF"
   >
-  
-
 
 <TextView
 	android:id="@+id/appStatus"
 	android:text=""
-	android:layout_width="400px" 
-	android:layout_height="98px"
-	android:layout_toRightOf="@+id/appStatus"
+	android:layout_width="250dp" 
+	android:layout_height="65dp"
 	android:gravity="center_vertical"
-	android:layout_marginLeft="100px"
-	android:textSize="18px"
+	android:layout_centerHorizontal="true"
+	android:textSize="12dp"
 	android:textColor="#000000"    
     >
 </TextView>
 
-
-
-
-  
 </RelativeLayout>

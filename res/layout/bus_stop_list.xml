@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-		xmlns:android="http://schemas.android.com/apk/res/android"
-	    android:layout_width="fill_parent"
-		android:layout_height="65dp"
-		>
-
 	<RelativeLayout
    		xmlns:android="http://schemas.android.com/apk/res/android"
     	android:id="@+id/stoplist"
     	android:layout_width="fill_parent"
 		android:layout_height="65dp"
+		android:background="#FFFFFF"
     	>
         
     	<TextView
@@ -28,7 +23,6 @@
     	
     	<ImageView
 	    	android:id="@+id/f_stopline1"
-	    	
 	    	android:layout_marginTop="6dp"
 	    	android:layout_marginBottom="6dp"
 	    	android:layout_below="@+id/f_stopname"
@@ -71,7 +65,6 @@
 	    	android:layout_width="45dp"
 			android:layout_height="16dp"
 			android:layout_marginRight="4dp"
-			
 	    	>
     	</ImageView>
     	
@@ -88,30 +81,27 @@
     
        
 				
-	    	<ImageView
-	    		android:id="@+id/favoritestar_btn"
-	    		android:layout_width="22dp"
-				android:layout_height="2dp"
-				android:background="@drawable/star_favorite"
-				android:layout_centerVertical="true"
-				android:layout_alignParentRight="true"
-				android:layout_marginRight="12dp"
-	    		>
-	    	
-	    	</ImageView>
+    	<ImageView
+    		android:id="@+id/favoritestar_btn"
+    		android:layout_width="22dp"
+			android:layout_height="2dp"
+			android:background="@drawable/star_favorite"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="12dp"
+    		>
+    	</ImageView>
     	
     
    	    
    	    <ImageView 
-		android:id="@+id/headerlineblack" 
-		android:layout_width="fill_parent"
-		android:layout_height="1dp"
-		android:layout_alignParentBottom="true"
-		android:background="#000000"
-		>
+			android:id="@+id/headerlineblack" 
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:layout_alignParentBottom="true"
+			android:background="#000000"
+			>
 		</ImageView>    	
     	
     	
     </RelativeLayout>
-
-</LinearLayout>

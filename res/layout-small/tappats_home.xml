@@ -37,14 +37,14 @@
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@+id/nfc_header"
 		android:layout_width="fill_parent"
-		android:layout_height="88dp"
+		android:layout_height="75dp"
 		android:layout_below="@+id/logobar"
 		android:background="@drawable/greybg_light"
 		>
 		
 		<TextView
 		    android:id="@+id/nfc_text" 
-		    android:text="Place your phone against the TapPATS badge at the bus stop to see when the next buses are arriving"
+		    android:text="Place your phone against the Tappats badge at the bus stop to see when the next buses are arriving"
 			android:layout_width="fill_parent" 
 			android:layout_height="fill_parent"
 			android:layout_marginLeft="12dp"

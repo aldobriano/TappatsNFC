@@ -56,7 +56,7 @@
 		
 		<TextView
 		    android:id="@+id/nfc_text" 
-		    android:text="Place your phone against the TapPATS badge at the bus stop to see when the next buses are arriving"
+		    android:text="Place your phone against the Tappats badge at the bus stop to see when the next buses are arriving"
 			android:layout_width="fill_parent" 
 			android:layout_height="fill_parent"
 			android:layout_marginLeft="12dp"

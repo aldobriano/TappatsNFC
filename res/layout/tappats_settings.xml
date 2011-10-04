@@ -49,7 +49,7 @@
 			android:layout_height="fill_parent"
 			android:layout_marginLeft="12dp"
 			android:gravity="center_vertical"
-			android:textSize="16dp"
+			android:textSize="15dp"
 			android:textStyle="bold"
 			android:textColor="#ffffff"    
 		    />
@@ -71,7 +71,7 @@
 			android:layout_height="fill_parent"
 			android:layout_marginLeft="12dp"
 			android:gravity="center_vertical"
-			android:textSize="16dp"
+			android:textSize="15dp"
 			android:textStyle="bold"
 			android:textColor="#000000"    
 		    />			
@@ -87,7 +87,7 @@
 			android:paddingRight="12dp"
 			android:layout_below="@+id/VersionTitleHolder"
 			android:gravity="center_vertical"
-			android:textSize="16dp"
+			android:textSize="15dp"
 			android:textStyle="normal"
 			android:textColor="#000000"
 			android:background="#f0f0f0"    
@@ -117,7 +117,7 @@
 			android:layout_height="fill_parent"
 			android:layout_marginLeft="12dp"
 			android:gravity="center_vertical"
-			android:textSize="16dp"
+			android:textSize="15dp"
 			android:textStyle="bold"
 			android:textColor="#000000"    
 		    />			
@@ -134,7 +134,7 @@
 			android:paddingLeft="12dp"
 			android:layout_below="@+id/InformationTitleHolder"
 			android:gravity="center_vertical"
-			android:textSize="16dp"
+			android:textSize="15dp"
 			android:textStyle="normal"
 			android:textColor="#000000"
 			android:background="@drawable/list_item_background"    
@@ -149,27 +149,52 @@
 		>
 		</ImageView> 
 
-<!-- 	<RelativeLayout -->
-<!-- 		xmlns:android="http://schemas.android.com/apk/res/android" -->
-<!-- 		android:id="@+id/FeedbackTitleHolder" -->
-<!-- 		android:layout_width="match_parent" -->
-<!-- 		android:layout_height="44px" -->
-<!-- 		android:layout_below="@+id/listbottomline2" -->
-<!-- 		android:background="@drawable/greybg_light" -->
-<!-- 		> -->
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/TutTitleHolder"
+		android:layout_width="match_parent"
+		android:layout_height="29dp"
+		android:layout_below="@+id/listbottomline2"
+		android:background="@drawable/greybg_light"
+		>
 	
-<!-- 		<TextView -->
-<!-- 		    android:id="@+id/FeedbackTitle"  -->
-<!-- 		    android:text="Feedback" -->
-<!-- 			android:layout_width="wrap_content"  -->
-<!-- 			android:layout_height="fill_parent" -->
-<!-- 			android:layout_marginLeft="18px" -->
-<!-- 			android:gravity="center_vertical" -->
-<!-- 			android:textSize="24px" -->
-<!-- 			android:textStyle="bold" -->
-<!-- 			android:textColor="#000000"     -->
-<!-- 		    />			 -->
-<!-- 	</RelativeLayout> -->
+		<TextView
+		    android:id="@+id/TutTitle" 
+		    android:text="NFC Tutorial"
+			android:layout_width="wrap_content" 
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="12dp"
+			android:gravity="center_vertical"
+			android:textSize="15dp"
+			android:textStyle="bold"
+			android:textColor="#000000"    
+		    />			
+	</RelativeLayout>
+    		
+    <Button
+		    android:id="@+id/TutText" 
+		    android:text="See a quick tutorial about Near Field Communication"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:minHeight="59dp"
+			android:paddingRight="12dp"
+			android:paddingLeft="12dp"
+			android:layout_below="@+id/TutTitleHolder"
+			android:gravity="center_vertical"
+			android:textSize="15dp"
+			android:textStyle="normal"
+			android:textColor="#000000"
+			android:background="@drawable/list_item_background"    
+		  	/>
+		  	
+	<ImageView 
+		android:id="@+id/listbottomline3" 
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="#999999"
+		android:layout_below="@+id/TutText"
+		>
+		</ImageView>
 
 	<ProgressBar android:id="@+id/pb"
         android:layout_width="26dp" 

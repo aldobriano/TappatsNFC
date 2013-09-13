@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="tappem.tappats"
-      android:versionName="1.0" android:versionCode="1002100">
+      android:versionName="1.0" android:versionCode="1002101">
     <application android:icon="@drawable/icon" 
     android:label="@string/app_name"
     >
@@ -9,6 +9,7 @@
     <supports-screens
     android:normalScreens="true"
     android:largeScreens="true"
+    
     />
     
 	<activity android:name=".Splash" android:label="@string/app_name"
